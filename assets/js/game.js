@@ -159,7 +159,7 @@ var endGame = function() {
             highScore +
             ". Maybe next time!");
     }
-
+;
     //ask player if they'd like to play again
     var playAgainConfirm = window.confirm("Would you like to play again?")
 
@@ -186,7 +186,7 @@ var shop = function() {
             break;
         
         case 2:
-            playerInfo.upgradeAttack();
+            playerInfo.upgradeAttack();8
             break;
 
         case 3:
